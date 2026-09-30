@@ -1,0 +1,28 @@
+fastapi>=0.116,<1.0
+uvicorn[standard]>=0.35,<1.0
+jinja2>=3.1,<4.0
+python-multipart>=0.0.20,<1.0
+
+pydantic>=2.11,<3.0
+pydantic-settings>=2.10,<3.0
+python-dotenv>=1.1,<2.0
+
+google-genai>=1.35,<2.0
+
+huggingface-hub>=0.34,<1.0
+
+Pillow>=11.3,<12.0
+
+fpdf2>=2.8,<3.0
+
+httpx>=0.28,<1.0
+
+pytest>=8.4,<9.0
+
+
+# Optional local image generation:
+#
+# diffusers>=0.40,<0.41
+# transformers>=4.55,<5.0
+# accelerate>=1.10,<2.0
+# torch>=2.6,<3.0
